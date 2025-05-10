@@ -19,20 +19,23 @@ A modern, responsive one-page React website designed to help users **resell unus
 - **React Icons** for clean, scalable iconography
 - Hosted on **Netlify**
 
----
+
+
+
 
 ## 🎨 Design Choices
 
-- **Tailwind CSS** for a fast and utility-first styling approach
-- **Framer Motion** for smooth and declarative animations
-- **Icons over text**:
-  - Improve visual hierarchy  
-  - Reduce textual clutter  
-  - Help users quickly identify features or actions
-- **Vibrant gradient backgrounds** and consistent color palette to reflect energy and trust
-- Emphasis on CTA to improve user interaction flow
+| Element         | Reasoning                                                                 |
+|----------------|---------------------------------------------------------------------------|
+| 🎨 Color Palette | Blue-to-cyan gradient for trust; vibrant orange accents for CTA focus     |
+| 🔤 Typography    | Bold headers for clarity; lightweight body text for easy reading          |
+| 🧩 Animation     | Framer Motion spring effects add flow and feedback without distraction     |
+| 🧿 Icons         | Visual shorthand for license types; quicker recognition and clean UI       |
+| 🖼️ Layout        | Centralized, minimal layout for focus and scalability                     |
 
----
+
+
+
 
 ## ⏱️ Time Spent
 
@@ -59,18 +62,10 @@ A modern, responsive one-page React website designed to help users **resell unus
 
 ---
 
-## ✨ Future Enhancements
-
-- Add license valuation calculator
-- Integrate backend to handle submissions
-- Implement user authentication and dashboard
-
----
 
 ## 🧑‍💻 Author
 
 **Md Arman Mansoori**  
-_BTech CSE @ NSUT (2026)_
 
 ---
 
