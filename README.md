@@ -62,7 +62,19 @@ A modern, responsive one-page React website designed to help users **resell unus
 
 ---
 
+## 🛠️ Installation & Running Locally
 
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/arman92004/softsell.git
+   cd softsell
+2. **Install dependencies** 
+   ```bash
+     npm install
+3. **Run** 
+   ```bash
+     npm run dev
+   
 ## 🧑‍💻 Author
 
 **Md Arman Mansoori**  
