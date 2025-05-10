@@ -1,12 +1,69 @@
-# React + Vite
+# 🧾 SoftSell — Resell Your Unused Software Licenses, Fast.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live demo:** https://softsell-pro.netlify.app/  
+**Built with:** React + Vite • Tailwind CSS • Framer Motion • React-Icons • Netlify
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+### ✅ Hero Section
+- Full-screen gradient background
+- Animated headline and CTA
+- Scroll-unroll style animation for software brand icons (Windows, Google Drive, Salesforce, etc.)
+- Logo animation with Framer Motion
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ How It Works
+- Three-step cards (List, Get Valuation, Sell)
+- Slide-in animation with staggered delays
+
+### ✅ Why Choose Us
+- Tilted 3D cards on hover
+- Spring-based scroll-triggered entrance
+
+### ✅ Testimonials
+- Auto-rotating user reviews
+- Swipeable and clickable indicators
+
+### ✅ Contact Form
+- SVG drawing animation on load
+- Flip animation to reveal the form
+- Interactive submit button with noticeable feedback
+
+### ✅ Responsive Design
+- Fully responsive from mobile to desktop
+- Icons and effects adjusted for smaller screens
+- Clean UI with consistent spacing and legible text
+
+---
+
+## 🎨 Design Choices
+
+| Element            | Choice & Reasoning                                                                 |
+|--------------------|------------------------------------------------------------------------------------|
+| **Color Palette**  | Dark blue and sky blue for tech trust, orange-yellow for CTA contrast              |
+| **Typography**     | Extra-bold headline fonts with clean, readable body text                           |
+| **Animation Style**| Subtle, engaging motion with spring physics using Framer Motion                    |
+| **Icons**          | React Icons used to represent major software platforms visually                    |
+| **Accessibility**  | Color contrast, focus-visible outlines, and semantic HTML used wherever possible   |
+
+---
+
+## ⏱️ Time Spent
+
+| Task                                | Time Spent |
+|-------------------------------------|-------------|
+| Initial project setup               | 1 hour      |
+| Hero section + animations           | 2 hours     |
+| How It Works layout + animation     | 1 hour      |
+| Why Choose Us 3D cards              | 1 hour      |
+| Testimonials slider setup           | 1 hour      |
+| Contact form (SVG + flip + submit)  | 2 hours     |
+| Responsiveness and polish           | 1 hour      |
+| Deployment + README writing         | 1 hour      |
+| **Total**                           | **~10 hours** |
+
+---
+
+## 🛠️ Project Structure
+
