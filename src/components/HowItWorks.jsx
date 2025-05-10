@@ -43,7 +43,7 @@ useEffect(() => {
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-8 sm:mb-12">
           How It Works
         </h2>
-
+        {/* Animated Loader Line */}
         <div className="bg-white rounded-2xl shadow-xl px-3 sm:px-6 md:px-8 py-6 md:py-20 relative">
           {/* Base line */}
           <div className="absolute top-14 sm:top-auto  left-0 w-full h-[2px] bg-gray-300 -translate-y-1/2 z-0" />
@@ -65,16 +65,9 @@ useEffect(() => {
                 initial={{ opacity: 0, y: 30 }}
                 animate={stepControls}
               >
-                {/* Circle icon on the line */}
                 <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-full bg-[#023047] text-white flex items-center justify-center text-2xl sm:text-3xl md:text-5xl shadow-lg md:-translate-y-1/2 z-30">
-
                   {step.icon}
                 </div>
-                
-                {/* Label */}
-                {/* <p className="mt-4 sm:mt-6 text-center text-xs sm:text-sm md:text-base text-[#023047] font-semibold">
-                  {step.title}
-                </p> */}
                 <p className="mt-2 sm:mt-2 text-center text-xs sm:text-base md:text-lg text-[#023047] font-semibold">{step.title}</p>
 
               </motion.div>

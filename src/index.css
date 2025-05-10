@@ -6,6 +6,8 @@ html {
   scroll-behavior: smooth;
 }
 
+
+/* for contact svg animation */
 .perspective {
   perspective: 1000px;
 }

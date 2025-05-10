@@ -1,4 +1,3 @@
-// src/App.jsx
 import Hero from './components/Hero';
 import HowItWorks from './components/HowItWorks';
 import WhyChooseUs from './components/WhyChooseUs';
@@ -15,11 +14,9 @@ const App = () => {
         <HowItWorks />
         <WhyChooseUs />
       </section>
-      {/* <HowItWorks />
-      <WhyChooseUs /> */}
-            <section className="bg-gradient-to-b from-[#8ECAE6] via-[#219EBC] to-[#023047]">
-      <Testimonials />
-      <ContactForm />
+      <section className="bg-gradient-to-b from-[#8ECAE6] via-[#219EBC] to-[#023047]">
+        <Testimonials />
+        <ContactForm />
       </section>
     </div>
   );

@@ -27,7 +27,7 @@ const Hero = () => {
           Unlock the Value of Your Software Licenses
         </motion.h1>
 
-        {/* Paragraph */}
+        {/* Sub-heading */}
         <motion.p
           className="text-md md:text-2xl mb-6 font-light max-w-lg mx-auto text-white"
           initial={{ opacity: 0, y: -50 }}
