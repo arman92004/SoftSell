@@ -6,18 +6,35 @@ A modern, responsive one-page React website designed to help users **resell unus
 
 ---
 
-## 🚀 Features Implemented
+## 🚀 Features
 
-- **Hero Section** with animated heading and CTA
-- **Scroll-triggered entrance** of software logos with icon animations
-- **"How It Works" Section** explaining the process step-by-step
-- **"Why Choose Us" Section** with animated info cards
-- **Customer Testimonials** carousel using Framer Motion
-- **Contact Form** with validation and interactive styling
-- Fully **responsive design** for all screen sizes
-- **Framer Motion** for subtle yet dynamic animations
-- **React Icons** for clean, scalable iconography
-- Hosted on **Netlify**
+### ✅ Hero Section
+- Full-screen gradient background
+- Animated headline and CTA
+- Scroll-unroll style animation for software brand icons (Windows, Google Drive, Salesforce, etc.)
+- Logo animation with Framer Motion
+
+### ✅ How It Works
+- Three-step cards (List, Get Valuation, Sell)
+- Slide-in animation with staggered delays
+
+### ✅ Why Choose Us
+- Spring-based scroll-triggered entrance
+
+### ✅ Testimonials
+- Auto-rotating user reviews
+- Swipeable and clickable indicators
+
+### ✅ Contact Form
+- SVG drawing animation on load
+- Flip animation to reveal the form
+- Interactive submit button with noticeable feedback
+
+### ✅ Responsive Design
+- Fully responsive from mobile to desktop
+- Icons and effects adjusted for smaller screens
+- Clean UI with consistent spacing and legible text
+
 
 
 
