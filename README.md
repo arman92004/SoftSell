@@ -66,7 +66,7 @@ A modern, responsive one-page React website designed to help users **resell unus
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/arman92004/softsell.git
+   git clone https://github.com/arman92004/SoftSell.git
    cd softsell
 2. **Install dependencies** 
    ```bash
