@@ -14,7 +14,7 @@ const WhyChooseUs = () => {
             className="bg-[#023047] text-white p-6 sm:p-8 md:p-10 rounded-xl shadow-lg hover:shadow-2xl transform transition-transform duration-300 hover:scale-105 flex flex-col items-center text-center"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.2 }}
             transition={{ delay: 0.2, type: 'spring', stiffness: 100 }}
           >
             <FaRocket className="text-4xl sm:text-5xl md:text-6xl text-yellow-500 mb-4 sm:mb-5" />
@@ -27,7 +27,7 @@ const WhyChooseUs = () => {
             className="bg-[#023047] text-white p-6 sm:p-8 md:p-10 rounded-xl shadow-lg hover:shadow-2xl transform transition-transform duration-300 hover:scale-105 flex flex-col items-center text-center"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.2 }}
             transition={{ delay: 0.4, type: 'spring', stiffness: 100 }}
           >
             <FaShieldAlt className="text-4xl sm:text-5xl md:text-6xl text-yellow-500 mb-4 sm:mb-5" />
@@ -40,7 +40,7 @@ const WhyChooseUs = () => {
             className="bg-[#023047] text-white p-6 sm:p-8 md:p-10 rounded-xl shadow-lg hover:shadow-2xl transform transition-transform duration-300 hover:scale-105 flex flex-col items-center text-center"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
+            viewport={{ once: false, amount: 0.2 }}
             transition={{ delay: 0.6, type: 'spring', stiffness: 100 }}
           >
             <FaTrophy className="text-4xl sm:text-5xl md:text-6xl text-yellow-500 mb-4 sm:mb-5" />

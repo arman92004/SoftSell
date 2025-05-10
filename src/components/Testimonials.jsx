@@ -42,7 +42,7 @@ const Testimonials = () => {
 
   const resetTimer = () => {
     clearInterval(intervalRef.current);
-    intervalRef.current = setInterval(nextPair, 6000);
+    intervalRef.current = setInterval(nextPair, 4000);
   };
 
   useEffect(() => {

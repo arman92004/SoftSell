@@ -1,12 +1,25 @@
 import { motion } from 'framer-motion';
+import Logo from "../assets/logo.png";
+import { FaWindows, FaJira, FaLinux, FaGamepad, FaMicrosoft, FaGoogleDrive, FaAtlassian, FaSalesforce, FaAws } from 'react-icons/fa';
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-b from-[#023047] to-[#219EBC] text-white h-screen flex items-center justify-center px-6 py-12">
+    <section className="bg-gradient-to-b from-[#023047] to-[#219EBC] text-white h-screen flex items-center justify-center px-6 py-12 relative">
+      {/* Top-left logo */}
+      <motion.img
+        src={Logo}
+        alt="SoftSell Logo"
+        className="absolute top-6 left-6 w-20 md:w-32 z-50"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+      />
+
+      {/* Main Content */}
       <div className="text-center max-w-3xl">
         {/* Heading */}
         <motion.h1
-          className="text-5xl font-extrabold mb-6 leading-tight tracking-tight text-[#FFB703]"
+          className="text-4xl md:text-7xl font-extrabold mb-6 leading-tight tracking-tight text-[#FFB703]"
           initial={{ opacity: 0, y: -100 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5 }}
@@ -16,7 +29,7 @@ const Hero = () => {
 
         {/* Paragraph */}
         <motion.p
-          className="text-lg mb-6 font-light max-w-lg mx-auto text-[#8ECAE6]"
+          className="text-md md:text-2xl mb-6 font-light max-w-lg mx-auto text-white"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.5, delay: 0.5 }}
@@ -47,6 +60,28 @@ const Hero = () => {
         >
           Sell My Licenses
         </motion.a>
+
+        <div className="hidden sm:flex justify-center gap-6 mt-12 text-6xl text-white opacity-80">
+          <div className="hidden sm:flex justify-center gap-6 mt-12 text-6xl text-white opacity-80">
+            {[FaWindows, FaGoogleDrive, FaSalesforce, FaAtlassian, FaAws, FaJira, FaMicrosoft, FaGamepad].map((Icon, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 60, rotateX: -90 }}
+                whileInView={{ opacity: 1, y: 0, rotateX: 0 }}
+                transition={{
+                  duration: 0.6,
+                  delay: index * 0.1,
+                  type: "spring",
+                  stiffness: 80,
+                }}
+                viewport={{ once: true }}
+              >
+                <Icon />
+              </motion.div>
+            ))}
+          </div>
+
+        </div>
       </div>
     </section>
   );

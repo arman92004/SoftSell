@@ -10,21 +10,32 @@ const steps = [
 
 const HowItWorks = () => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: '-100px' });
+  const isInView = useInView(ref, { margin: '-100px' });
 
   const lineControls = useAnimation();
   const stepControls = useAnimation();
 
-  useEffect(() => {
-    if (isInView) {
-      lineControls.start({ width: '100%', transition: { duration: 1.5, ease: 'easeInOut' } });
-      stepControls.start((i) => ({
-        opacity: 1,
-        y: 0,
-        transition: { delay: steps[i].delay, duration: 0.5 },
-      }));
-    }
-  }, [isInView, lineControls, stepControls]);
+useEffect(() => {
+  if (isInView) {
+    lineControls.start({
+      width: '100%',
+      transition: { duration: 1.5, ease: 'easeInOut' },
+    });
+    stepControls.start((i) => ({
+      opacity: 1,
+      y: 0,
+      transition: { delay: steps[i].delay, duration: 0.5 },
+    }));
+  } else {
+    // Reset animation when out of view
+    lineControls.set({ width: 0 });
+    stepControls.set((i) => ({
+      opacity: 0,
+      y: 30,
+    }));
+  }
+}, [isInView, lineControls, stepControls]);
+
 
   return (
     <section className="py-10 sm:py-14 md:py-20 text-white" ref={ref}>
